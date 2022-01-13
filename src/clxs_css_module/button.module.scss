@@ -1,0 +1,22 @@
+.btn {
+    border-radius: 5px;
+
+    &:hover {
+        cursor : pointer;
+        opacity: 0.9;
+    }
+}
+
+.primary {
+    background-color: #007bfe;
+    color           : #fff;
+}
+
+.disable {
+    background-color: #007bfe;
+
+    &:hover {
+        cursor : none;
+        opacity: 0.1;
+    }
+}
